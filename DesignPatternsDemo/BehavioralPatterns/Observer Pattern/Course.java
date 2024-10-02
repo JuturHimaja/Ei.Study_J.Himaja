@@ -1,6 +1,7 @@
 package observers;
 
 import utils.Logger;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,6 +17,10 @@ public class Course implements ISubject {
     public void setCourseDetails(String courseDetails) {
         this.courseDetails = courseDetails;
         notifyObservers(); // Notify observers when course details change
+    }
+
+    public String getCourseName() {
+        return courseName;
     }
 
     @Override

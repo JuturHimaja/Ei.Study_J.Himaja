@@ -25,4 +25,3 @@ public class ObserverPatternMain {
         mathCourse.setCourseDetails("Class timings have been changed to 10 AM.");
     }
 }
-
